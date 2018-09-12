@@ -50,7 +50,7 @@ controller.on('slash_command', function (slashCommand, message) {
             // help command
             if (message.text === "" || message.text === "help") {
                 slashCommand.replyPrivate(message,
-                    "Try typing /coinbot _cryptocurrency-symbol_ TO _fiat-symbol_, for example" + 
+                    "Try typing /coinbot _cryptocurrency-symbol_ TO _fiat-symbol_, for example " + 
                     "`/coinbot BTC` or `/coinbot ETH to EUR` (default fiat currency is USD).");
                 return;
             }
