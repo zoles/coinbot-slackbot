@@ -1,0 +1,25 @@
+{
+  "name": "coinbot",
+  "version": "1.0.0",
+  "description": "Slack Bot using Node.js and botkit framework to get realtime prices of crypto currencies in fiat.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "slack",
+    "slash command",
+    "coinbot",
+    "cryptocurrency"
+  ],
+  "author": "Zoltan Mehes",
+  "homepage": "https://github.com/zoles/coinbot-slackbot.git#readme",
+  "dependencies": {
+    "botkit": "0.0.5",
+    "botkit-storage-mongo": "^1.0.7",
+    "dotenv": "^6.0.0",
+    "mongodb": "^3.1.4",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.2"
+  }
+}

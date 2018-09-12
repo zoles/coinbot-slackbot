@@ -1,0 +1,6 @@
+out
+db_coinbot
+node_modules
+.vscode/
+.jshintrc
+.env
